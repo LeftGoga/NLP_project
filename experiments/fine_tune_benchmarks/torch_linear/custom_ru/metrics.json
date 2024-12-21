@@ -1,0 +1,1 @@
+{"run_name": "../models_iter_ft_swichback_false/503b_iter1", "train_runtime": 10559.0191, "train_samples_per_second": 11.304, "train_steps_per_second": 0.177, "total_flos": 3.9118032973961626e+17, "train_loss": 1.3174339690732573, "epoch": 5.0}
