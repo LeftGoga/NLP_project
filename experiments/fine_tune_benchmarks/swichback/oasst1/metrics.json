@@ -1,0 +1,1 @@
+{"run_name": "../models/503B_FT_lr1e-5_ep5", "train_runtime": 3783.6987, "train_samples_per_second": 12.601, "train_steps_per_second": 0.197, "total_flos": 1.5182434490646528e+17, "train_loss": 7.150961713342858, "epoch": 5.0}
