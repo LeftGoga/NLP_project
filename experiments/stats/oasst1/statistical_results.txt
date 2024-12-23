@@ -1,0 +1,6 @@
+Statistical Results:
+Mean for Linear: 72.57 minutes, standard deviation: 0.29
+Mean for SwichBackLinear: 65.50 minutes, standard deviation: 0.46
+SwichBackLinear is 9.74% smaller than Linear.
+t-statistic: 40.6644, p-value: 0.0000
+The results are statistically significant at the alpha level of 0.05.
