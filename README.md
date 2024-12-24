@@ -7,6 +7,14 @@ This project provides tools and scripts for fine-tuning [TinyLlama-1.1B](https:/
 
 Our experimental results and the research paper can be found at the following link: [SwichBack Tiny Llama](https://drive.google.com/file/d/1cEO3HFDxu_s8uLvRDB8TiyOy_dUGWqyi/view?usp=sharing)
 
+## Main results of acceleration
+| Model              | OASST1      | Longform        | Custom RU      | 
+|--------------------|-------------|-----------------|----------------|
+| nn.Linear          | 72.57 min   | 173.19 min      | 175.46 min     | 
+| SwichBackLinear    | 65.50 min   | 155.73 min      | 158.85 min     |
+| Acceleration (%)   | 9.76%       | 10.08%          | 9.46%          |
+
+
 ## Dockerfile
 To reproduce all results, you can use a Docker image setup to ensure all dependencies for fine-tuning and benchmarking workflows are installed. The base image includes `Python`, `CUDA`, `Triton`, `transformers`, `lm_eval`, and `torch` dependencies.
 
