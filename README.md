@@ -8,7 +8,7 @@ This project provides tools and scripts for fine-tuning [TinyLlama-1.1B](https:/
 Our experimental results and the research paper can be found at the following link: [SwichBack Tiny Llama](https://drive.google.com/file/d/1cEO3HFDxu_s8uLvRDB8TiyOy_dUGWqyi/view?usp=sharing)
 
 ## Main results of acceleration
-| Model                        | OASST1      | Longform        | Custom RU      | 
+| Layer                        | OASST1      | Longform        | Custom RU      | 
 |------------------------------|-------------|-----------------|----------------|
 | nn.Linear (minutes)          | 72.57       | 173.19          | 175.46         | 
 | SwichBackLinear (minutes)    | 65.50       | 155.73          | 158.85         |
